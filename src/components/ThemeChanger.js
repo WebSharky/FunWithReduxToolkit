@@ -18,8 +18,7 @@ const ThemeChanger = ({ themeToggler, isThemeDark}) => {
         { isThemeDark ? <FaSnowflake />  : <FaSeedling />}
     </div> */}
 
-    {/* <p> Just playing with redux toolkit and Styled Components</p>
-    <p>Press Sun to change theme</p> */}
+ 
 
     </StyledThemeChanger>
   )
