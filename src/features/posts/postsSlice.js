@@ -6,22 +6,19 @@ const initialState = [
         thumbsUp: 0,
         wow: 0,
         heart: 0,
-        rocket: 0,
-        coffee: 0
+        rocket: 0
     } },
     {id: '2', title: 'What would you say?', content:  'Anyone want me to organize a tournament?', date: sub(new Date(), {minutes: 5}).toISOString(), reactions: {
         thumbsUp: 0,
         wow: 0,
         heart: 0,
-        rocket: 0,
-        coffee: 0
+        rocket: 0
     }},
     {id: '3', title: 'An unexpected twist', content:  'We discovered a new continent!', date: sub(new Date(), {minutes: 1}).toISOString(), reactions: {
         thumbsUp: 0,
         wow: 0,
         heart: 0,
-        rocket: 0,
-        coffee: 0
+        rocket: 0
     }}
 ]
 
